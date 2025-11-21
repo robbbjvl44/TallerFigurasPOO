@@ -63,6 +63,12 @@ Hay una **clase base** y varias **clases hijas** que calculan área y perímetro
 - Prueba **validación de errores** usando `try/except`:
   - se crean o modifican figuras con valores inválidos (`0` o negativos),
   - se captura el `ValueError` y se imprime el mensaje en pantalla.
+ 
+  ![Ejecución del programa](Captura1.png)
+![Ejecución del programa](captura2.png)
+![Ejecución del programa](captura3.png)
+![Ejecución del programa](captura4.png)
+![Ejecución del programa](captura5.png)
 
 Ejemplo de validación en `main.py`:
 
@@ -72,8 +78,4 @@ try:
 except ValueError as e:
     print("Error al crear cuadrado con lado=0:", e)
 
-![Ejecución del programa](Captura1.png)
-![Ejecución del programa](captura2.png)
-![Ejecución del programa](captura3.png)
-![Ejecución del programa](captura4.png)
-![Ejecución del programa](captura5.png)
+
