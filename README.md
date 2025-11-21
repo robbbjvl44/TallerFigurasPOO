@@ -71,3 +71,6 @@ try:
     cuadrado_invalido = Cuadrado(lado=0)
 except ValueError as e:
     print("Error al crear cuadrado con lado=0:", e)
+
+![Ejecución del programa](img/<img width="1366" height="767" alt="Captura de pantalla 2025-11-20 202436" src="https://github.com/user-attachments/assets/35fd99da-3112-44ac-8bb7-597004de6453" />
+)
